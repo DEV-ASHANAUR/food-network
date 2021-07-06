@@ -37,11 +37,11 @@ p.sort-desc {
 }
 .link-btn{
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 19px 33px;
     text-transform: capitalize;
     color: #fff;
     background: linear-gradient(#058FF7,#9ed6f5);
-    border-radius: 23px;
+    border-radius: 24px;
 }
 /* end top section */
 /* Start About section */
@@ -104,19 +104,19 @@ p.sort-desc {
 .card-container .card{
     width: 29.33%;
     margin: 2%;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 3px 20px gray;
 }
 .card-header {
-    padding: 15px;
+    padding: 20px;
 }
 .card-body {
-    padding: 15px;
+    padding: 20px;
 }
 .card-header img{
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .card-title h2{
     font-size: 28px;
@@ -137,7 +137,7 @@ p.sort-desc {
     display: flex;
     margin: -2%;
     margin: 0 44px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 3px 20px grey;
 }
 .count-wrapper .item{
