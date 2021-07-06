@@ -47,7 +47,7 @@ p.sort-desc {
 /* Start About section */
 .about-section{
     display: flex;
-    background-image: url('../shapes/frame57.jpg');
+    background-image: url('../images/shapes/frame57.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
@@ -77,3 +77,55 @@ p.sort-desc {
 }
 
 /* End About section */
+/* start recipie section */
+.racipie-section{
+    margin-bottom: 100px;
+}
+.recipie-title{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom:25px;
+}
+.recipie-title h2{
+    text-align: center;
+    font-size: 36px;
+}
+.recipie-title p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.card-container{
+    display: flex;
+    margin: -2%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card-container .card{
+    width: 29.33%;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 20px gray;
+}
+.card-header {
+    padding: 15px;
+}
+.card-body {
+    padding: 15px;
+}
+.card-header img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card-title h2{
+    font-size: 28px;
+    text-transform: capitalize;
+
+}
+.card-desc p{
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* End recipie section */
