@@ -37,7 +37,7 @@ body{
 .list-item ul li a{
     text-decoration: none;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 /* menu section end */
 /* start top section */
@@ -76,6 +76,7 @@ p.sort-desc {
     color: #fff;
     background: linear-gradient(#058FF7,#9ed6f5);
     border-radius: 24px;
+    font-size: 18px;
 }
 /* end top section */
 /* Start About section */
@@ -232,8 +233,8 @@ input:focus {
     border: none;
     color: white;
     background: linear-gradient(#058FF7,#8cc4e2);
-    font-size: 14px;
-    border-radius: 5px;
+    font-size: 18px;
+    border-radius: 24px;
     cursor: pointer;
     
 }
