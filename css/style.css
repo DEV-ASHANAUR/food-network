@@ -22,7 +22,10 @@ body{
     width: 20%;
     padding-top: 5px;
 }
-.menu-wrapper .logo h3{
+.menu-wrapper .logo a{
+    text-decoration: none;
+}
+.menu-wrapper .logo a h3{
     color: #fff;
 }
 .menu-wrapper .list-item{
