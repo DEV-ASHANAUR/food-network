@@ -9,33 +9,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- header section start -->
+    <header>
+        <div class="menu-wrapper">
+            <div class="logo">
+                <img src="images/logo/logo1.png" alt="">
+            </div>
+            <div class="list-item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipie">Recipie</a></li>
+                    <li><a href="#table">Reservation</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header section End -->
+    <!-- top section start -->
     <section class="top-section">
         <div class="half-width left-section">
-            <h1 class="heading"><span class="text-color">Skip</span> The Diet,<br>Just Eat Healthy <br>With Food Network </h1>
+            <h1 class="heading"><span class="text-color">We</span> Provide,<br>Good Healthy Food  <br>For Your Family </h1>
             <p class="sort-desc">Imagine you don't need a diet because we provide 
                 healthy and delicious food for you!</p>
-            <a class="link-btn" href="#">order food</a>
+            <a class="link-btn" href="https://www.dev-ashanur.com/" target="_blank">order food</a>
         </div>
         <div class="half-width">
             <img src="images/person-eat.png" alt="">
         </div>
     </section>
-    <section class="about-section">
+    <!-- top section End -->
+    <!-- About section start -->
+    <section id="about" class="about-section">
         <div class="half-width about-img">
             <img src="images/person-img.png" alt="">
         </div>
         <div class="half-width about-txt">
             <h2>About Me</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci alias excepturi sed ullam sequi blanditiis labore assumenda illum, aperiam vel? Sed dolores voluptates ut consectetur ab nulla eos nostrum blanditiis.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci alias excepturi sed ullam sequi blanditiis labore assumenda illum, aperiam vel? Sed dolores voluptates ut consectetur ab nulla eos nostrum blanditiis.
+            <p>Hi am Md Ashanaur Rahman, an Engineer from Computer Science And Engineering background. As I am passionate about programming,  Personally, I am an ambitious, resolute, workaholic person who knows team playing. I like to do voluntary works For poor people.
+            Apart from all the nerdy things, I love sleeping like a polar bear, eat a lot of fast food whenever get a chance, play cricket, roam around, watch movies & documentaries, dig internet to learn something new and so on…
             </p>
-            <a class="link-btn" href="#">Contact Me</a>
+            <a class="link-btn" href="https://www.dev-ashanur.com/" target="_blank">Contact Me</a>
         </div>
     </section>
-    <section class="racipie-section">
+    <!-- About section End -->
+    <!-- Recipie section start -->
+    <section id="recipie" class="racipie-section">
         <div class="recipie-title">
             <h2>My Recipies</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus a cumque eligendi porro, culpa maxime sed voluptatibus nam vitae, cupiditate possimus quas commodi tenetur nostrum ex error ad totam. Amet.</p>
+            <p>Just the title of a recipe can invite you in…or out. What would you rather make: Mushroom Bomb Lentil Pasta or Pasta with Mushrooms? Use descriptive words, without creating an excessively long title—it’s not necessary to list every ingredient in the title.</p>
         </div>
 
         <div class="card-container">
@@ -45,10 +67,10 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title">
-                        <h2>Recipie Title</h2>
+                        <h2>Rosted Vegitables</h2>
                     </div>
                     <div class="card-desc">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, necessitatibus facere aliquid veritatis reprehenderit voluptate in vel itaque,</p>
+                        <p>First up: the best roasted vegetables recipe! This master recipe makes the most colorful sheet pans that will please even the most veggie-wary eaters.</p>
                     </div>
                 </div>
             </div>
@@ -58,10 +80,10 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title">
-                        <h2>Recipie Title</h2>
+                        <h2>Sautéed Vegetables</h2>
                     </div>
                     <div class="card-desc">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, necessitatibus facere aliquid veritatis reprehenderit voluptate in vel itaque,</p>
+                        <p>The good old veggie saute is often done wrong: it’s super soggy, or completely bland in flavor. Think of that pile of limp zucchini and carrots you might eat at a wedding buffet.</p>
                     </div>
                 </div>
             </div>
@@ -71,16 +93,17 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title">
-                        <h2>Recipie Title</h2>
+                        <h2>Fry Vegetables</h2>
                     </div>
                     <div class="card-desc">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, necessitatibus facere aliquid veritatis reprehenderit voluptate in vel itaque,</p>
+                        <p>Another great way to eat vegetables: in a stir fry! This stir fry vegetables recipe is colorful and tastes so delicious, you won’t want to stop eating. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- Recipie section End -->
+    <!-- Count section Start -->
     <section class="count-section">
         <div class="count-wrapper">
             <div class="item">
@@ -97,11 +120,36 @@
             </div>
         </div>
     </section>
+     <!-- Count section End -->
+      <!-- Book section Start -->
+    <section id="table" class="book-section">
+        <h2 class="book-table">Book A Table</h2>
+        <form action="#">
+            <div class="book-wrapper">
+                <div class="item">
+                    <input type="text" class="form-control" placeholder="Name"><br>
+                    <input type="date" class="form-control date" placeholder="Check-in">
+                </div>
+                <div class="item">
+                    <input type="Email" class="form-control" placeholder="Email"><br>
+                    <input type="time" class="form-control" placeholder="Time">
+                </div>
+                <div class="item">
+                    <input type="text" class="form-control" placeholder="Phone"><br>
+                    <input type="number" class="form-control" placeholder="Guest">
+                </div>
+            </div>
+            <button type="submit" class="book-btn">Book Your Table Now</button>
+        </form>
+    </section>
+    <!-- Book section End -->
+    <!-- footer section start -->
     <footer>
         <div class="footer-wrapper">
             <h1><span class="text-color">FOOD</span> NETWORK</h1>
             <p>Eat healthy to live healthy. Live healthy to live happy.</p>
         </div>
     </footer>
+    <!-- footer section End -->
 </body>
 </html>
