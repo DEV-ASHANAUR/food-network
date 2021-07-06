@@ -6,21 +6,26 @@ body{
     padding: 0;
 }
 /* menu section start */
+.menu-header{
+    background: #0795F8;
+}
+.color-red{
+    color: red;
+}
 .menu-wrapper{
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
-    background: #0795F8;
-    box-shadow: 0px 2px 25px grey;
+    /* background: #0795F8; */
+    /* box-shadow: 0px 2px 25px grey; */
     border-radius: 2px;
 }
 .menu-wrapper .logo{
     width: 20%;
-    
+    padding-top: 5px;
 }
-.menu-wrapper .logo img{
-    width: 20%;
-    padding: 15px;
+.menu-wrapper .logo h3{
+    color: #fff;
 }
 .menu-wrapper .list-item{
     width: 80%; 
