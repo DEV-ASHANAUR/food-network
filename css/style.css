@@ -185,7 +185,7 @@ p.sort-desc {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 150px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 
 }
 .book-wrapper{
@@ -194,7 +194,7 @@ p.sort-desc {
     margin: 0 44px;
 }
 .book-table{
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
 }
 .book-wrapper .item{
