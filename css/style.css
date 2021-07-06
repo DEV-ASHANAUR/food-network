@@ -79,7 +79,7 @@ p.sort-desc {
 /* End About section */
 /* start recipie section */
 .racipie-section{
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 .recipie-title{
     width: 50%;
@@ -129,3 +129,17 @@ p.sort-desc {
     line-height: 1.5;
 }
 /* End recipie section */
+.count-section{
+    margin-bottom: 100px;
+}
+.count-wrapper{
+    display: flex;
+    margin: -2%;
+    margin: 0 44px;
+    box-shadow: 5px 3px 20px grey;
+}
+.count-wrapper .item{
+    width: 29.33%;
+    margin: 2%;
+    text-align: center;
+}
