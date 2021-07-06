@@ -195,6 +195,7 @@ p.sort-desc {
 }
 .book-table{
     padding-top: 50px;
+    font-size: 36px;
     text-align: center;
 }
 .book-wrapper .item{
@@ -205,7 +206,7 @@ p.sort-desc {
 .form-control{
    
     border: transparent!important;
-    border: 1px solid rgb(9 162 85 / 30%)!important;
+    border: 1px solid #1E99F3!important;
     height: 50px!important;
     background: transparent!important;
     color: black!important;
@@ -215,6 +216,7 @@ p.sort-desc {
     box-shadow: none!important;
     margin-bottom: 15px;
     padding-left: 10px;
+    width: 100%;
     
 }
 input:focus { 
@@ -233,8 +235,8 @@ input:focus {
     font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
-
 /* end book a table */
 /* start footer section */
 .footer-wrapper{
